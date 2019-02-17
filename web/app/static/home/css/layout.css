@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+ *	version:1.0
+ *	auther:liwei
+ *	email:autumnal_mood@163.com
+ *	website:localhost
+ *	date:2014-06
+ */
+ 
+ /* =Layout
+ --------------------------------------------------*/
+ *{
+	 margin:0;
+	 padding:0;
+ }
+ 
+body{
+	background-color:#81effe;
+	background-image:url("http://localhost:5000/static/home/images/background.jpg");
+	background-position:center;
+	background-repeat:repeat-y;
+}
+	
+.clear{
+	clear:both;
+}
+
+
+/* =Container
+--------------------------------------------------*/
+#Container{
+	width:1100px;
+	top:0px;
+	left:0px;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	font:normal 16px "宋体";
+}
+
+
+/* =Header
+-------------------------------------------------*/
+#header{
+	width:1100px;
+	height:500px;	
+}
+
+
+/* =Nav
+-------------------------------------------------*/
+#nav{
+	width:1100px;
+	height:40px;
+	border-top-color:#0FF;
+	border-top-style:solid;
+	border-top-width:thin;
+	border-bottom-color:#0FF;
+	border-bottom-style:solid;
+	border-bottom-width:thin;
+	background-color:#c9ecf9;
+	float:left;
+}
+
+#nav ul
+{
+	width:1100px;
+	list-style:none;
+}
+
+#nav ul li
+{
+	display:inline;
+}
+
+#nav ul li a
+{
+	float:left;
+	width:220px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-weight:bold;
+	vertical-align:center;
+	color:#000033;
+	text-decoration:none;
+}
+
+#nav ul li a:hover
+{
+	background-color:#0CF;
+	color:#FFF;
+}
+
+
+/* =left_column
+-------------------------------------------------------------*/
+#left_column
+{
+	width:148px;
+	height:400px;
+	margin-right:3px;
+	padding:20px;
+	float:left;
+}
+
+
+/* =middle_column
+-------------------------------------------------------------*/
+#middle_column
+{
+	width:457px;
+	margin-right:4px;
+	padding:20px;
+	float:left;
+}
+
+#mid_column_sub{
+	width:132px;
+	height:150px;
+	margin-top:30px;
+	padding:10px;
+	float:left;
+}
+
+#mid_column_sub a{
+	font-size:12px;
+	text-decoration:none;
+	color:#666;
+}
+
+#mid_column_sub a:visited{
+	color:#666
+}
+
+
+/* =right_column
+-------------------------------------------------------------*/
+#right_column
+{
+	width:365px;
+	height:400px;
+	padding:20px;
+	float:left;
+}
+
+#right_columnn_sub{
+	width:160px;
+	height:150px;
+	margin-top:30px;
+	padding:10px;
+	float:left;
+}
+
+#right_columnn_sub a{
+	font-size:12px;
+	text-decoration:none;
+	color:#666;
+}
+
+#right_columnn_sub a:visited{
+	color:#666
+}
+
+/* =right_column_large
+-------------------------------------------------------------*/
+#right_column_large
+{
+	width:860px;
+	height:400px;
+	padding:20px;
+	float:left;
+	background-color:#EEE;
+}
+
+/* =content
+-------------------------------------------------------------*/
+#column_name{
+	font-weight:bold;
+	font-size:26px;
+	color:#666;
+}
+
+.proj_description{
+	color:#666;
+	font-size:12px;
+	text-align:center;
+}
+
+.link_text{
+	font-size:14px;
+	text-align:center;
+	text-decoration:none;
+}
+
+.p{
+	font-size:14px;
+	text-align:center;
+	text-decoration:none;
+}
+/* =footer
+-------------------------------------------------------------*/
+#footer
+{
+	width:1100px;
+	height:100px;
+	background-image:url("http://localhost:5000/static/home/images/footer.jpg");
+	border-top-color:#0FF;
+	border-top-style:solid;
+	border-top-width:thin;
+	float:left;
+}
+/*
+#footer ul
+{
+	list-style:none;
+	display:block;
+}
+
+#footer ul li
+{
+	display:inline;
+}
+
+
+#footerFill
+{
+	width:640px;
+	height:40px;
+}
+
+#footerContent
+{
+	width:640px;
+}
+
+#footer p
+{
+	font:12px "宋体";
+	width:640px;
+	text-align:center;
+	color:#336699;
+	display:block;
+}
+*/
