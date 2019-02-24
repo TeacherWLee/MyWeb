@@ -11,3 +11,4 @@ home = Blueprint('home',__name__)
 
 
 from . import index
+from . import auth
