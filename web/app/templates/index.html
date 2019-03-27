@@ -14,19 +14,11 @@
 	</div>
     <div id="nav">
     	<ul>
-<<<<<<< HEAD
-        	<li><a href="" title="首页">首页</a></li>
-            <li><a href="" title="首页">物品管理</a></li>
-            <li><a href="" title="首页">本站配置</a></li>
-            <li><a href="" title="首页">预留板块</a></li>
-            <li><a href="{{ url_for('home.login') }}" title="首页">用户登录</a></li>
-=======
         	<li><a href="{{ url_for('home.index') }}" title="首页">首页</a></li>
             <li><a href="" title="首页">我的项目</a></li>
             <li><a href="" title="首页">本站配置</a></li>
             <li><a href="" title="首页">预留板块</a></li>
             <li><a href="{{ url_for('home.login') }}" title="用户登录">用户登录</a></li>
->>>>>>> 4a56d80e367d146572f6ae62241b89619ce5b9ca
         </ul>
     </div>
     <img src="{{ url_for('static', filename='home/images/content.jpg') }}" alt="首页内容图片" />
