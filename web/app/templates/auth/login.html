@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录-李巍的Web站点</title>
+</head>
+<body>
+<form action="{{ url_for('home.login') }}" method="post">
+    <p>用户名</p>
+    <input type="text">
+    <p>密码</p>
+    <input type="password">
+    <input type="submit" value="登录">
+</form>
+</body>
+</html>
