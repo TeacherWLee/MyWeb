@@ -11,5 +11,6 @@ from . import home
 @home.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
-        print("POST Method")
+        form = request.form.to_dict()
+        print(form)
     return render_template('auth/login.html')
