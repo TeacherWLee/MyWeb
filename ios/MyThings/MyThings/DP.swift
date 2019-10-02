@@ -196,7 +196,7 @@ final class DP {                   // 数据处理类
     
     init() {                                  // 构造函数
         db = SQLiteDB.shared
-        _ = db.openDB()
+        _ = db.open()
     }
     
     // MARK: 处理数据库文件

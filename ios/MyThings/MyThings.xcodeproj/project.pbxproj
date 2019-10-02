@@ -15,7 +15,6 @@
 		D01ACE9A1F92DA630090E637 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D01ACE991F92DA630090E637 /* libsqlite3.tbd */; };
 		D01ACE9D1F92DBD60090E637 /* CommonTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01ACE9B1F92DBD60090E637 /* CommonTools.swift */; };
 		D01ACEA31F92DF5F0090E637 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01ACEA01F92DF5F0090E637 /* SQLTable.swift */; };
-		D01ACEA41F92DF5F0090E637 /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01ACEA11F92DF5F0090E637 /* String-Extras.swift */; };
 		D01ACEA51F92DF5F0090E637 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01ACEA21F92DF5F0090E637 /* SQLiteDB.swift */; };
 		D01DBA251F9D9C6C005D43BD /* VCListCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01DBA241F9D9C6C005D43BD /* VCListCC.swift */; };
 		D021BCD11FA4D182002EC81C /* VCListOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D021BCD01FA4D182002EC81C /* VCListOwner.swift */; };
@@ -25,6 +24,8 @@
 		D02BDC661F8DC66100E29EC8 /* VCMainPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02BDC651F8DC66100E29EC8 /* VCMainPosition.swift */; };
 		D02BDC6C1F8DC6F400E29EC8 /* VCMainSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02BDC6B1F8DC6F400E29EC8 /* VCMainSetting.swift */; };
 		D041B0251FB5F94300EADF4D /* VCToolSyncData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041B0241FB5F94300EADF4D /* VCToolSyncData.swift */; };
+		D0714CF82344CB7C00C68EEC /* CloudDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0714CF62344CB7B00C68EEC /* CloudDB.swift */; };
+		D0714CF92344CB7C00C68EEC /* SQLiteBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0714CF72344CB7C00C68EEC /* SQLiteBase.swift */; };
 		D078D28B200B81F2009C67B1 /* VCToolExeSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D078D28A200B81F2009C67B1 /* VCToolExeSQL.swift */; };
 		D082094C1F9B73C5002B8479 /* SwiftPopMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D082094B1F9B73C5002B8479 /* SwiftPopMenu.swift */; };
 		D08209531F9B7B58002B8479 /* VCEditCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D082094D1F9B7B57002B8479 /* VCEditCC.swift */; };
@@ -51,7 +52,6 @@
 		D01ACE991F92DA630090E637 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		D01ACE9B1F92DBD60090E637 /* CommonTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTools.swift; sourceTree = "<group>"; };
 		D01ACEA01F92DF5F0090E637 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLTable.swift; path = SQLiteDB/SQLTable.swift; sourceTree = SOURCE_ROOT; };
-		D01ACEA11F92DF5F0090E637 /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String-Extras.swift"; path = "SQLiteDB/String-Extras.swift"; sourceTree = SOURCE_ROOT; };
 		D01ACEA21F92DF5F0090E637 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteDB.swift; path = SQLiteDB/SQLiteDB.swift; sourceTree = SOURCE_ROOT; };
 		D01DBA241F9D9C6C005D43BD /* VCListCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCListCC.swift; sourceTree = "<group>"; };
 		D021BCD01FA4D182002EC81C /* VCListOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCListOwner.swift; sourceTree = "<group>"; };
@@ -61,6 +61,8 @@
 		D02BDC651F8DC66100E29EC8 /* VCMainPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCMainPosition.swift; sourceTree = "<group>"; };
 		D02BDC6B1F8DC6F400E29EC8 /* VCMainSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCMainSetting.swift; sourceTree = "<group>"; };
 		D041B0241FB5F94300EADF4D /* VCToolSyncData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCToolSyncData.swift; sourceTree = "<group>"; };
+		D0714CF62344CB7B00C68EEC /* CloudDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CloudDB.swift; path = SQLiteDB/CloudDB.swift; sourceTree = SOURCE_ROOT; };
+		D0714CF72344CB7C00C68EEC /* SQLiteBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteBase.swift; path = SQLiteDB/SQLiteBase.swift; sourceTree = SOURCE_ROOT; };
 		D078D28A200B81F2009C67B1 /* VCToolExeSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCToolExeSQL.swift; sourceTree = "<group>"; };
 		D082094B1F9B73C5002B8479 /* SwiftPopMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftPopMenu.swift; path = SwiftPopMenu/SwiftPopMenu.swift; sourceTree = SOURCE_ROOT; };
 		D082094D1F9B7B57002B8479 /* VCEditCC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCEditCC.swift; sourceTree = "<group>"; };
@@ -101,9 +103,10 @@
 		D01ACE9F1F92DF390090E637 /* SQLiteDB */ = {
 			isa = PBXGroup;
 			children = (
+				D0714CF62344CB7B00C68EEC /* CloudDB.swift */,
+				D0714CF72344CB7C00C68EEC /* SQLiteBase.swift */,
 				D01ACEA21F92DF5F0090E637 /* SQLiteDB.swift */,
 				D01ACEA01F92DF5F0090E637 /* SQLTable.swift */,
-				D01ACEA11F92DF5F0090E637 /* String-Extras.swift */,
 			);
 			name = SQLiteDB;
 			path = "New Group";
@@ -264,13 +267,14 @@
 				D00D97F51F9A47C000A240E7 /* VCDetailThing.swift in Sources */,
 				D078D28B200B81F2009C67B1 /* VCToolExeSQL.swift in Sources */,
 				D08A83681FE21A4E00D69847 /* VCPageThings.swift in Sources */,
-				D01ACEA41F92DF5F0090E637 /* String-Extras.swift in Sources */,
 				D01ACEA31F92DF5F0090E637 /* SQLTable.swift in Sources */,
 				D08209571F9B7B58002B8479 /* VCEditPosition.swift in Sources */,
 				D00386361FE0C95500CE6903 /* GCDAsyncSocket.m in Sources */,
+				D0714CF92344CB7C00C68EEC /* SQLiteBase.swift in Sources */,
 				D082094C1F9B73C5002B8479 /* SwiftPopMenu.swift in Sources */,
 				D0BD9A6F1FA4C7D7007C09E4 /* VCListArea.swift in Sources */,
 				D0B2B3FE1F8CC1C4001D4F5B /* AppDelegate.swift in Sources */,
+				D0714CF82344CB7C00C68EEC /* CloudDB.swift in Sources */,
 				D08209581F9B7B58002B8479 /* VCEditOwner.swift in Sources */,
 				D01ACEA51F92DF5F0090E637 /* SQLiteDB.swift in Sources */,
 				D01DBA251F9D9C6C005D43BD /* VCListCC.swift in Sources */,
